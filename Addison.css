@@ -1,0 +1,102 @@
+body{
+    overflow-x: hidden;
+}
+.main{
+    background: url("https://img.freepik.com/premium-photo/innovative-architecture-civil-engineering-plan_31965-3097.jpg?w=1380");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 740px;
+    animation-name: ani;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+@keyframes ani{
+    0%{
+        background-image: url("https://img.freepik.com/premium-vector/silhouette-building-construction-site-with-tower-crane-engineer-workersvector-illustration_474511-148.jpg?w=1060");
+        background-size: cover;
+        background-position: center;
+        height: 740px;
+    }
+
+    25%{
+        background-image: url("https://img.freepik.com/free-photo/manager-supervisor-worker-discussing-about-production-results-new-strategy-factory-industrial-hall_342744-112.jpg?w=1060&t=st=1680402732~exp=1680403332~hmac=0baea0ddc9f697e0e95c31be6591b0f9d9e08be31da2a7eb2da7995de367c5db");
+        background-size: cover;
+        background-position: center;
+        height: 740px;
+    }
+    50%{
+        background-image: url("https://img.freepik.com/free-photo/building-construction-worker-site-with-architect_23-2149124266.jpg?w=1060&t=st=1680403287~exp=1680403887~hmac=c4e74e4414e0808deae8229702f1818fe167ebfed37b50631a05596d87544194");
+        background-size: cover;
+        background-position: center;
+        height: 740px;
+    }
+    75%{
+        background-image: url("https://img.freepik.com/premium-photo/innovative-architecture-civil-engineering-building-construction-project-creative-graphic-design-showing-concept-infrastructure-city-building-by-professional-architect-worker-engineer_31965-15441.jpg?w=1380");
+        background-size: cover;
+        background-position: center;
+        height: 740px;
+    }
+}
+.min{
+    padding-left: 40px;
+    padding-top: 10px;
+}
+.ser{
+    background-color: red rgb(120, 201, 120);
+    width: 150px;
+    height: 10px;
+    margin-left: 150px ;
+}
+.About{
+  background-color: rgb(234, 229, 229);
+}
+.above{
+   background-color: red;
+    width: 140px;
+    height: 5px;
+    margin-left: 40px;
+}
+.para{
+    animation-name: paraaa;
+    animation-duration: 10s;
+    animation-delay: 5s;
+}
+@keyframes paraaa{
+    0%{
+        transform: scaleX(2.5);
+    }
+}
+.add{
+    animation-name: addd;
+    animation-duration: 10s;
+}
+@keyframes addd{
+    0%{
+        transform: scale(1.5);
+        animation-iteration-count: infinite;
+    }
+    25%{
+        transform: scale(0.5);
+    }
+}
+.clock{
+    background-color: blanchedalmond;
+    width: 100px;
+    height: 220px;
+}
+.Gallery{
+    background-color: rgb(184, 204, 216);
+    margin-top: 40px;
+}
+.gal:hover{
+    box-shadow: 4px 3px 4px 3px;
+    color: yellow;
+}
+.foot{
+    background-image:url("https://static.wixstatic.com/media/11062b_9ddaa6338cd14259834dce09a9cb27baf000.jpg/v1/fill/w_845,h_1080,al_c,q_85,usm_0.33_1.00_0.00,enc_auto/11062b_9ddaa6338cd14259834dce09a9cb27baf000.jpg") ;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    margin-top: 30px;
+}
